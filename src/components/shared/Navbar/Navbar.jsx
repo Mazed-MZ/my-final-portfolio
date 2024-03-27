@@ -23,8 +23,6 @@ import TransitionLink from "./TransitionLink";
 export default function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const menuItems = ["Home", "Skill", "About me", "Projects", "Contact Me"];
-
   return (
     <Navbar onMenuOpenChange={setIsMenuOpen}>
       <NavbarContent>

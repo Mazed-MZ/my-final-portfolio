@@ -18,7 +18,7 @@ export const projects = [
     title: "Integrate Payment Gateway",
     description:
       "Technology: SSL Commerze, Bkash, Nagad, Stripe, Paypal",
-    link: "https://netflix.com",
+    link: "payment",
   },
   {
     title: "Secured User Authentication",
@@ -30,7 +30,7 @@ export const projects = [
     title: "Backend Development",
     description:
       "Technology: Node JS, Express JS, Cors, Mongo DB",
-    link: "https://meta.com",
+    link: "backend",
   },
   {
     title: "Build E-Commerce Website",
