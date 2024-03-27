@@ -20,7 +20,7 @@ export default function Education() {
   }, []);
 
   return (
-    <div className="md:pl-80 mt-12 bg-gradient-to-b from-black to-green-800">
+    <div className="md:pl-80 mt-12 pb-28 bg-gradient-to-b from-black to-green-800">
       <div className="md:grid md:grid-cols-2">
         <Stepper
           orientation="vertical"

@@ -18,6 +18,7 @@ import {
 } from "@nextui-org/react";
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import TransitionLink from "./TransitionLink";
 
 export default function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -38,9 +39,7 @@ export default function App() {
 
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
         <NavbarItem isActive>
-          <Link color="foreground" className="hover:text-zinc-400" href="/">
-            Home
-          </Link>
+          <TransitionLink href="/" lebel="Home" />
         </NavbarItem>
         <Dropdown>
           <NavbarItem isActive>
@@ -99,25 +98,25 @@ export default function App() {
           </DropdownMenu>
         </Dropdown>
         <NavbarItem isActive>
-          <Link color="foreground" className="hover:text-zinc-400" href="about">
-            About me
-          </Link>
+          <TransitionLink href="about" lebel="About me" />
         </NavbarItem>
         <NavbarItem isActive>
-          <Link color="foreground" className="hover:text-zinc-400" href="#">
-            Services
-          </Link>
+          <TransitionLink href="services" lebel="Services" />
         </NavbarItem>
         <NavbarItem isActive>
-          <Link color="foreground" className="hover:text-zinc-400" href="#">
-            Projects
-          </Link>
+          <TransitionLink href="projects" lebel="Projects" />
         </NavbarItem>
       </NavbarContent>
       <NavbarContent justify="end">
         <NavbarItem>
-          <Button as={Link} color="warning" href="#" variant="flat" className="font-bold">
-            Contact me
+          <Button
+            as={Link}
+            color="warning"
+            href="#"
+            variant="flat"
+            className="font-bold"
+          >
+            <TransitionLink href="contact" lebel="Contact me" />
           </Button>
         </NavbarItem>
       </NavbarContent>
@@ -125,9 +124,7 @@ export default function App() {
       {/* ------>>>> Mobile device <<<<----- */}
       <NavbarMenu>
         <NavbarMenuItem>
-          <Link color="foreground" href="/">
-            Home
-          </Link>
+          <TransitionLink href="/" lebel="Home" />
         </NavbarMenuItem>
         <Dropdown>
           <NavbarItem>
@@ -186,24 +183,16 @@ export default function App() {
           </DropdownMenu>
         </Dropdown>
         <NavbarMenuItem>
-          <Link color="foreground" href="about">
-            About me
-          </Link>
+          <TransitionLink href="about" lebel="About me" />
         </NavbarMenuItem>
         <NavbarMenuItem>
-          <Link color="foreground" href="/">
-            Services
-          </Link>
+          <TransitionLink href="services" lebel="Services" />
         </NavbarMenuItem>
         <NavbarMenuItem>
-          <Link color="foreground" href="/">
-            Projects
-          </Link>
+          <TransitionLink href="projects" lebel="Projects" />
         </NavbarMenuItem>
         <NavbarMenuItem>
-          <Link color="foreground" href="/">
-            Contact me
-          </Link>
+          <TransitionLink href="contact" lebel="Contact me" />
         </NavbarMenuItem>
       </NavbarMenu>
     </Navbar>

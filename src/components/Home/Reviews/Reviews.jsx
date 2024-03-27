@@ -1,3 +1,5 @@
+"use client"
+
 import { InfiniteMovingReviewssDemo } from "@/app/assets/infinityreviews";
 import { Divider } from "@nextui-org/react";
 import React from "react";

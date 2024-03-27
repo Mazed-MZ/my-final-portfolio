@@ -23,7 +23,7 @@ export function SpotlightPreview() {
           data-aos="fade-down-right"
           data-aos-easing="linear"
           data-aos-duration="2000"
-          className="text-4xl md:text-7xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50"
+          className="text-4xl md:text-8xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-tr from-white to-neutral-800 bg-opacity-50"
         >
           MAZED MOHAMMED
         </h1>
