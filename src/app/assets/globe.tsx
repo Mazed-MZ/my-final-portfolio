@@ -415,7 +415,7 @@ export function GlobeDemo() {
             Worldwide freelance market domination
           </h2>
           <p className="text-center text-base md:text-lg font-normal text-neutral-700 dark:text-neutral-200 max-w-md mt-2 mx-auto">
-            Overall 5% world domination rate. Completed order successfully for Italy, United Arab Emirates, India etc countries clients.
+            Overall 5% world domination rate. Completed order successfully for Italy, United Arab Emirates, India.
           </p>
         </motion.div>
         <div className="absolute w-full bottom-0 inset-x-0 h-40 bg-gradient-to-b pointer-events-none select-none from-transparent z-40" />

@@ -1,4 +1,5 @@
 import { GlobeDemo } from "@/app/assets/globe";
+import { MacbookScrollDemo } from "@/app/assets/macbookscroll";
 import Image from "next/image";
 import React from "react";
 
@@ -20,6 +21,7 @@ const Globe = () => {
           <GlobeDemo></GlobeDemo>
         </div>
       </div>
+      <MacbookScrollDemo></MacbookScrollDemo>
     </div>
   );
 };
