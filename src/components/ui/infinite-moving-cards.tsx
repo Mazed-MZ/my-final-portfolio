@@ -12,8 +12,6 @@ export const InfiniteMovingCards = ({
   className,
 }: {
   items: {
-    quote: string;
-    name: string;
     title: string;
   }[];
   direction?: "left" | "right";
@@ -88,8 +86,7 @@ export const InfiniteMovingCards = ({
       >
         {items.map((item, idx) => (
           <li
-            className="max-w-full flex-shrink-0 px-8 md:w-[300px] bg-inherit text-center"
-            key={item.name}
+            className="max-w-full flex-shrink-0 px-8 md:w-[300px] bg-inherit text-center" key={item.title}
           >
             <Chip color="success" variant="bordered">{item.title}</Chip>
           </li>

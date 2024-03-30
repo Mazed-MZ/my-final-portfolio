@@ -17,8 +17,8 @@ export function SignupFormDemo() {
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    const form = e.target;
-    const name = form.name.value;
+    const form = e.target as HTMLFormElement;
+    const name = form.text.value;
     const subject = form.subject.value;
     const message = form.message.value;
     const email = form.email.value;
@@ -48,14 +48,14 @@ export function SignupFormDemo() {
       <p className="text-neutral-600 text-sm max-w-sm mt-2 dark:text-neutral-500">
         Please feel free to reach out to me with any questions, inquiries, or
         collaboration opportunities you may have. I value your feedback and look
-        forward to hearing from you. Simply message me below, and I'll get back
+        forward to hearing from you. Simply message me below, and I will get back
         to you as soon as possible.
       </p>
 
       <form className="my-8" onSubmit={handleSubmit}>
         <LabelInputContainer className="mb-4">
           <Label htmlFor="name">Your Name</Label>
-          <Input id="name" placeholder="Ex. Jhon" type="text" />
+          <Input id="text" placeholder="Ex. Jhon" type="text" />
         </LabelInputContainer>
         <LabelInputContainer className="mb-4">
           <Label htmlFor="subject">Subject</Label>

@@ -8,10 +8,10 @@ import { TypeScript3DPin } from "@/app/assets/TypeScript3DPin";
 import { FramerMotion3DPin } from "@/app/assets/FramerMotion3DPin";
 import { SmoothScroll3DPin } from "@/app/assets/SmoothScroll3DPin";
 import { Aceternity3DPin } from "@/app/assets/Aceternity3DPin";
+import { Parallax3DPin } from "@/app/assets/Parallax3DPin";
 import { BackgroundGradientAnimationDemo } from "@/app/assets/gradientbackground";
 import { Divider } from "@nextui-org/react";
 import React from "react";
-import { Parallax3DPin } from "@/app/assets/parallax3DPin";
 import Footer from "antd/es/layout/layout";
 
 const Frontend = () => {
