@@ -20,7 +20,7 @@ export default function Template({ children }: { children: React.ReactNode }) {
       />
       <div
         id="banner-3"
-        className="min-h-screen bg-[url('https://i.ibb.co/V3pwnSN/transitionimg-7.jpg')] z-40 fixed top-0 left-2/4 w-1/4"
+        className="min-h-screen bg-[url('https://i.ibb.co/sJMHqrx/IMG-hjkh.jpg')] z-40 fixed top-0 left-2/4 w-1/4"
       />
       <div
         id="banner-4"

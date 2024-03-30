@@ -1,10 +1,10 @@
 "use client";
 
 import { cn } from "@/utils/cn";
+import { Button } from "@nextui-org/react";
 import { AnimatePresence, motion } from "framer-motion";
 import Link from "next/link";
 import { useState } from "react";
-import TransitionLink from "../shared/Navbar/TransitionLink";
 
 export const HoverEffect = ({
   items,
@@ -54,6 +54,9 @@ export const HoverEffect = ({
           <Card>
             <CardTitle>{item.title}</CardTitle>
             <CardDescription>{item.description}</CardDescription>
+            <Button className="md:hidden mt-6" color="success" variant="ghost">
+              Learn More
+            </Button>
           </Card>
         </Link>
       ))}

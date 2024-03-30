@@ -1,21 +1,44 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
 import { Label } from "../../components/ui/label";
 import { Input } from "../../components/ui/input";
 import { cn } from "@/utils/cn";
 import {
   IconBrandFacebook,
   IconBrandGithub,
-  IconBrandGoogle,
   IconBrandLinkedin,
-  IconBrandOnlyfans,
 } from "@tabler/icons-react";
 import Link from "next/link";
+import { sendEmailForm } from "../../lib/api";
+import Swal from "sweetalert2";
 
 export function SignupFormDemo() {
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  const [error, setError] = useState("");
+
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    console.log("Form submitted");
+    const form = e.target;
+    const name = form.name.value;
+    const subject = form.subject.value;
+    const message = form.message.value;
+    const email = form.email.value;
+    const user = { name, email, subject, message };
+    console.log(user);
+    try {
+      await sendEmailForm(user);
+      Swal.fire({
+        title: "Message sent successfully",
+        text: "Thanks for messaging. I'll response to your email as soon as possible.",
+        icon: "success",
+      });
+    } catch (err) {
+      Swal.fire({
+        icon: "error",
+        title: "Oops...",
+        text: "Something went wrong!",
+        footer: '<a href="#">Why do I have this issue?</a>',
+      });
+    }
   };
   return (
     <div className="max-w-md w-full mx-auto rounded-none md:rounded-2xl p-4 md:p-8 shadow-input bg-white dark:bg-black">
@@ -31,18 +54,26 @@ export function SignupFormDemo() {
 
       <form className="my-8" onSubmit={handleSubmit}>
         <LabelInputContainer className="mb-4">
-          <Label htmlFor="email">Email Address</Label>
-          <Input id="email" placeholder="projectmayhem@fc.com" type="email" />
+          <Label htmlFor="name">Your Name</Label>
+          <Input id="name" placeholder="Ex. Jhon" type="text" />
+        </LabelInputContainer>
+        <LabelInputContainer className="mb-4">
+          <Label htmlFor="subject">Subject</Label>
+          <Input id="subject" placeholder="Ex. web development" type="text" />
         </LabelInputContainer>
         <LabelInputContainer className="mb-4">
           <Label htmlFor="message">Type your message</Label>
           <Input id="message" placeholder="Type your message" type="text" />
         </LabelInputContainer>
+        <LabelInputContainer className="mb-4">
+          <Label htmlFor="email">Email Address</Label>
+          <Input id="email" placeholder="projectmayhem@fc.com" type="email" />
+        </LabelInputContainer>
         <button
           className="bg-gradient-to-br relative group/btn from-black dark:from-zinc-900 dark:to-zinc-900 to-neutral-600 block dark:bg-zinc-800 w-full text-white rounded-md h-10 font-medium shadow-[0px_1px_0px_0px_#ffffff40_inset,0px_-1px_0px_0px_#ffffff40_inset] dark:shadow-[0px_1px_0px_0px_var(--zinc-800)_inset,0px_-1px_0px_0px_var(--zinc-800)_inset]"
           type="submit"
         >
-          Send &rarr;
+          Send Message  &rarr;
           <BottomGradient />
         </button>
 

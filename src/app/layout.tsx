@@ -21,7 +21,7 @@ export default function RootLayout({
     <html lang="en" className="dark">
       <body className={inter.className}>
         <Providers>
-          <Navbar></Navbar> <SmoothScroll>{children}</SmoothScroll>
+          <Navbar></Navbar><SmoothScroll>{children}</SmoothScroll>
         </Providers>
       </body>
     </html>

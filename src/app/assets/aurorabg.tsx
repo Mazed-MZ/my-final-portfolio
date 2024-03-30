@@ -1,10 +1,11 @@
 "use client";
 
 import { motion } from "framer-motion";
-import React from "react";
+import React, { useEffect } from "react";
 import { AuroraBackground } from "../../components/ui/aurora-background";
 
 export function AuroraBackgroundDemo() {
+
   return (
     <AuroraBackground>
       <motion.div

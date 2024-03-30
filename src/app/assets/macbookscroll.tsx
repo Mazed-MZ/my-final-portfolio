@@ -1,14 +1,26 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { MacbookScroll } from "../../components/ui/macbook-scroll";
 import Link from "next/link";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export function MacbookScrollDemo() {
+
+  useEffect(() => {
+    AOS.init({
+      duration: 800,
+      once: false,
+    });
+  }, []);
+
+
   return (
-    <div className="overflow-hidden bg-[url('https://www.siili.com/hubfs/siili-data_and_ai_design_sprint-hero_mobile-800x1000.gif')] bg-cover w-full">
+    <div className="overflow-hidden bg-[url('https://www.icegif.com/wp-content/uploads/satisfying-icegif-1.gif')] bg-cover w-full">
       <MacbookScroll
         title={
-          <span>
-            Stay Connected with me.
+          <span data-aos="zoom-in-up">
+            Collaborate with me to design and develop a next-gen responsive
+            website.
           </span>
         }
         badge={
