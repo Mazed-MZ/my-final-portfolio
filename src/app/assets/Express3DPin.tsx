@@ -15,7 +15,7 @@ export function Express3DPin() {
           </h3>
           <div className="text-base !m-0 !p-0 font-normal">
             <span className="text-slate-500 ">
-              Complete documentation of the Framer Motion.
+              Express.js is the most popular web framework for Node.js
             </span>
           </div>
           <div className="flex flex-1 w-full rounded-lg mt-4 bg-[url('https://ih1.redbubble.net/image.438908244.6144/st,small,507x507-pad,600x600,f8f8f8.u2.jpg')] bg-cover" />

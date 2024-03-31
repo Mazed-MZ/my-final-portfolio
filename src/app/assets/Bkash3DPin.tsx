@@ -15,7 +15,7 @@ export function Bkash3DPin() {
           </h3>
           <div className="text-base !m-0 !p-0 font-normal">
             <span className="text-slate-500 ">
-              Most Popular and Innovative Mobile Banking in Bangladesh
+            Trending mobile banking platform.
             </span>
           </div>
           <div className="flex flex-1 w-full rounded-lg mt-4 bg-[url('https://assets-v2.lottiefiles.com/a/12bc3460-1187-11ee-9671-4f64f023dd62/yLq5UmuJDm.gif')] bg-cover" />

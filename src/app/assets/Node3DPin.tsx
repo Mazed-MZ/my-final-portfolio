@@ -15,7 +15,8 @@ export function Node3DPin() {
           </h3>
           <div className="text-base !m-0 !p-0 font-normal">
             <span className="text-slate-500 ">
-              High-quality web applications with the power of React components.
+              JavaScript runtime used to create server-side and
+              networking applications
             </span>
           </div>
           <div className="flex flex-1 w-full rounded-lg mt-4 bg-[url('https://blog.logrocket.com/wp-content/uploads/2021/04/handling-dispatching-events-nodejs.png')] bg-cover" />

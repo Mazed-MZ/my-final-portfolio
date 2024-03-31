@@ -15,8 +15,7 @@ export function Stripe3DPin() {
           </h3>
           <div className="text-base !m-0 !p-0 font-normal">
             <span className="text-slate-500 ">
-              Transform your business with the largest payment gateway
-              aggregator in Bangladesh
+              Financial infrastructure for the internet
             </span>
           </div>
           <div className="flex flex-1 w-full rounded-lg mt-4 bg-[url('https://cdn.dribbble.com/users/920/screenshots/3031540/untitled-3.gif')] bg-cover" />

@@ -48,7 +48,7 @@ export default function App() {
                 radius="lg"
                 variant="light"
               >
-                Skills{" "}
+                Services{" "}
                 <FontAwesomeIcon
                   icon={faChevronDown}
                   style={{ color: "#ffffff" }}
@@ -67,31 +67,31 @@ export default function App() {
               key="autoscaling"
               description="ACME scales apps to meet user demand, automagically, based on load."
             >
-              Autoscaling
+              <TransitionLink href="frontend" lebel="Frontend Development" />
             </DropdownItem>
             <DropdownItem
               key="usage_metrics"
               description="Real-time metrics to debug issues. Slow query added? We’ll show you exactly where."
             >
-              Usage Metrics
+              <TransitionLink href="backend" lebel="Backend Development" />
             </DropdownItem>
             <DropdownItem
               key="production_ready"
               description="ACME runs on ACME, join us and others serving requests at web scale."
             >
-              Production Ready
+              <TransitionLink href="authsecure" lebel="Secured Authentication" />
             </DropdownItem>
             <DropdownItem
               key="99_uptime"
               description="Applications stay on the grid with high availability and high uptime guarantees."
             >
-              +99% Uptime
+              <TransitionLink href="payment" lebel="Payment Gateway System" />
             </DropdownItem>
             <DropdownItem
               key="supreme_support"
               description="Overcome any challenge with a supporting team ready to respond."
             >
-              +Supreme Support
+              <TransitionLink href="services" lebel="See all services" />
             </DropdownItem>
           </DropdownMenu>
         </Dropdown>
@@ -99,7 +99,7 @@ export default function App() {
           <TransitionLink href="about" lebel="About me" />
         </NavbarItem>
         <NavbarItem isActive>
-          <TransitionLink href="services" lebel="Services" />
+          <TransitionLink href="skills" lebel="Skill" />
         </NavbarItem>
         <NavbarItem isActive>
           <TransitionLink href="projects" lebel="Projects" />
@@ -133,7 +133,7 @@ export default function App() {
                 radius="sm"
                 variant="light"
               >
-                Skills{" "}
+                Services{" "}
                 <FontAwesomeIcon
                   icon={faChevronDown}
                   style={{ color: "#ffffff" }}
@@ -152,31 +152,31 @@ export default function App() {
               key="autoscaling"
               description="ACME scales apps to meet user demand, automagically, based on load."
             >
-              Autoscaling
+              <TransitionLink href="frontend" lebel="Frontend Development" />
             </DropdownItem>
             <DropdownItem
               key="usage_metrics"
               description="Real-time metrics to debug issues. Slow query added? We’ll show you exactly where."
             >
-              Usage Metrics
+              <TransitionLink href="backend" lebel="Backend Development" />
             </DropdownItem>
             <DropdownItem
               key="production_ready"
               description="ACME runs on ACME, join us and others serving requests at web scale."
             >
-              Production Ready
+              <TransitionLink href="authsecure" lebel="Secured Authentication" />
             </DropdownItem>
             <DropdownItem
               key="99_uptime"
               description="Applications stay on the grid with high availability and high uptime guarantees."
             >
-              +99% Uptime
+              <TransitionLink href="payment" lebel="Payment Gateway Integration" />
             </DropdownItem>
             <DropdownItem
               key="supreme_support"
               description="Overcome any challenge with a supporting team ready to respond."
             >
-              +Supreme Support
+              <TransitionLink href="services" lebel="See All Services" />
             </DropdownItem>
           </DropdownMenu>
         </Dropdown>
@@ -184,7 +184,7 @@ export default function App() {
           <TransitionLink href="about" lebel="About me" />
         </NavbarMenuItem>
         <NavbarMenuItem>
-          <TransitionLink href="services" lebel="Services" />
+          <TransitionLink href="skills" lebel="Skills" />
         </NavbarMenuItem>
         <NavbarMenuItem>
           <TransitionLink href="projects" lebel="Projects" />

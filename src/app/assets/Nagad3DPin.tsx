@@ -15,7 +15,7 @@ export function Nagad3DPin() {
           </h3>
           <div className="text-base !m-0 !p-0 font-normal">
             <span className="text-slate-500 ">
-              High-quality web applications with the power of React components.
+              Most demandable mobile banking platform and very easy to integrate.
             </span>
           </div>
           <div className="flex flex-1 w-full rounded-lg mt-4 bg-[url('https://www.bd-pratidin.com/assets/news_images/2023/10/25/thumbnails/221710_bangladesh_pratidin_na.gif')] bg-cover" />

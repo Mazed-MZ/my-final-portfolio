@@ -15,8 +15,7 @@ export function Paypal3DPin() {
           </h3>
           <div className="text-base !m-0 !p-0 font-normal">
             <span className="text-slate-500 ">
-              Used in collaboration with ParallaxLayer to create visual
-              displacements declaratively and simply.
+              Digital Wallet and international mony management platform
             </span>
           </div>
           <div className="flex flex-1 w-full rounded-lg mt-4 bg-[url('https://cdn.dribbble.com/users/1525393/screenshots/6448182/comp_3.gif')] bg-cover" />

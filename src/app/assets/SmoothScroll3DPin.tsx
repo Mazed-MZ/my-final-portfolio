@@ -15,8 +15,7 @@ export function SmoothScroll3DPin() {
           </h3>
           <div className="text-base !m-0 !p-0 font-normal">
             <span className="text-slate-500 ">
-              Complete documentation of the Framer Motion animation library. A
-              production-ready motion library for React..
+              A Smooth Scroll library fresh out of the darkroom designed by STUDIO FREIGHT.
             </span>
           </div>
           <div className="flex flex-1 w-full rounded-lg mt-4 bg-[url('https://assets-global.website-files.com/64760069e93084646c9ee428/65a78d0aeec1ee148c677c30_lenis-main.jpg')] bg-cover" />

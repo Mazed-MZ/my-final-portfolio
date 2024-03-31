@@ -1,3 +1,5 @@
+"use client"
+
 import React, { useEffect } from "react";
 import { Divider } from "@nextui-org/react";
 import { TabsDemo } from "@/app/assets/tabs";
