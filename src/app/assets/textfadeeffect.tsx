@@ -1,7 +1,8 @@
 "use client";
 import { TextGenerateEffect } from "../../components/ui/text-generate-effect";
 
-const words = `This is Mazed Mohammed, a dynamic Frontend Web Developer, and Freelancer with a robust skill set that includes HTML5, CSS, JavaScript, C Programming, Fortran, React JS, Mongo DB, Firebase, Tailwind CSS, Node JS, React Native, Bootstrap, and proficiency in problem-solving on platforms like LeetCode, CodeForce. I specialize in crafting engaging and responsive user interfaces. With a keen eye for detail and a commitment to staying at the forefront of new and updated technology, I consistently deliver innovative and user-centric solutions, making a mark in the ever-evolving world of web development.
+const words = `
+This is Mazed Mohammed, an innovative Frontend Web Developer and Freelancer, renowned for my dynamic approach and versatile skill set. With a keen eye for the latest technologies and a knack for mastering cutting-edge frameworks and libraries, I try to bring a fresh perspective to every project. With over 3 years of freelancing experience under my belt, I have solidified my reputation as a developer in this field, boasting an impressive 5% world marketplace domination rate. Additionally, I have extensive expertise in the field of SEO, further enhancing my ability to deliver comprehensive solutions for clients.
 `;
 
 export function TextGenerateEffectDemo() {

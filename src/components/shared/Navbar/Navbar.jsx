@@ -64,32 +64,31 @@ export default function App() {
             }}
           >
             <DropdownItem
-              key="autoscaling"
-              description="ACME scales apps to meet user demand, automagically, based on load."
+              key="frontend"
+              description="Technology: React, HTML, CSS, JavaScript, Tailwind CSS, Next JS, Framer Motion, Parallax, GSAP, TypeScript."
             >
               <TransitionLink href="frontend" lebel="Frontend Development" />
             </DropdownItem>
             <DropdownItem
-              key="usage_metrics"
-              description="Real-time metrics to debug issues. Slow query added? We’ll show you exactly where."
+              key="backend"
+              description="Technology: Node JS, Express JS, Cors, Mongo DB"
             >
               <TransitionLink href="backend" lebel="Backend Development" />
             </DropdownItem>
             <DropdownItem
-              key="production_ready"
-              description="ACME runs on ACME, join us and others serving requests at web scale."
+              key="authsecure"
+              description="Technology: Firebase, JSON Web Token, Regular Expression"
             >
               <TransitionLink href="authsecure" lebel="Secured Authentication" />
             </DropdownItem>
             <DropdownItem
-              key="99_uptime"
-              description="Applications stay on the grid with high availability and high uptime guarantees."
+              key="payment"
+              description="Technology: SSL Commerze, Bkash, Nagad, Stripe, Paypal"
             >
               <TransitionLink href="payment" lebel="Payment Gateway System" />
             </DropdownItem>
             <DropdownItem
-              key="supreme_support"
-              description="Overcome any challenge with a supporting team ready to respond."
+              key="services"
             >
               <TransitionLink href="services" lebel="See all services" />
             </DropdownItem>
@@ -149,32 +148,31 @@ export default function App() {
             }}
           >
             <DropdownItem
-              key="autoscaling"
-              description="ACME scales apps to meet user demand, automagically, based on load."
+              key="frontend"
+              description="Technology: React, HTML, CSS, JavaScript, Tailwind CSS, Next JS, Framer Motion, Parallax, GSAP, TypeScript"
             >
               <TransitionLink href="frontend" lebel="Frontend Development" />
             </DropdownItem>
             <DropdownItem
-              key="usage_metrics"
-              description="Real-time metrics to debug issues. Slow query added? We’ll show you exactly where."
+              key="backend"
+              description="Technology: Node JS, Express JS, Cors, Mongo DB"
             >
               <TransitionLink href="backend" lebel="Backend Development" />
             </DropdownItem>
             <DropdownItem
-              key="production_ready"
-              description="ACME runs on ACME, join us and others serving requests at web scale."
+              key="authsecure"
+              description="Technology: Firebase, JSON Web Token, Regular Expression"
             >
               <TransitionLink href="authsecure" lebel="Secured Authentication" />
             </DropdownItem>
             <DropdownItem
-              key="99_uptime"
-              description="Applications stay on the grid with high availability and high uptime guarantees."
+              key="payment"
+              description="Technology: SSL Commerze, Bkash, Nagad, Stripe, Paypal"
             >
               <TransitionLink href="payment" lebel="Payment Gateway Integration" />
             </DropdownItem>
             <DropdownItem
-              key="supreme_support"
-              description="Overcome any challenge with a supporting team ready to respond."
+              key="services"
             >
               <TransitionLink href="services" lebel="See All Services" />
             </DropdownItem>
