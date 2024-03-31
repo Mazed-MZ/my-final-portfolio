@@ -24,7 +24,7 @@ export const projects = [
     title: "Secured User Authentication",
     description:
       "Technology: Firebase, JSON Web Token, Regular Expression",
-    link: "https://google.com",
+    link: "authsecure",
   },
   {
     title: "Backend Development",
@@ -35,13 +35,13 @@ export const projects = [
   {
     title: "Build E-Commerce Website",
     description:
-      "Frontend and Backend technologies are used. Build secured admin panal and shopping cart management",
-    link: "https://amazon.com",
+      "Frontend and Backend technologies are used. Build secured admin panal and shopping cart management. (Frontend and Backend technologies are used here)",
+    link: "frontend",
   },
   {
     title: "Search Engine Optimization",
     description:
-      "Technology: Keyword research, Google Trends, Google Analytics, Ahrefs, Uber Suggest",
-    link: "https://microsoft.com",
+      "Technology: Keyword research, Google Trends, Google Analytics, Ahrefs, Uber Suggest. (Contact with me for details)",
+    link: "contact",
   },
 ];

@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { Divider } from "@nextui-org/react";
 import { TabsDemo } from "@/app/assets/tabs";
+import AccordingCollaps from "./AccordingCollaps";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -23,8 +24,15 @@ export default function Skills() {
           <Divider />
         </div>
       </div>
-      <div data-aos="fade-up">
+
+      {/* ------->> Desktop Version <<------- */}
+      <div data-aos="fade-up" className="hidden md:block">
         <TabsDemo></TabsDemo>
+      </div>
+
+      {/* ------->> Mobile Version <<------- */}
+      <div className="md:hidden">
+        <AccordingCollaps></AccordingCollaps>
       </div>
     </div>
   );

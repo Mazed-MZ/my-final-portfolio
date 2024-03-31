@@ -18,7 +18,7 @@ export function MacbookScrollDemo() {
     <div className="overflow-hidden bg-[url('https://www.icegif.com/wp-content/uploads/satisfying-icegif-1.gif')] bg-cover w-full">
       <MacbookScroll
         title={
-          <span data-aos="zoom-in-up">
+          <span className="md:text-6xl hidden md:block bg-clip-text text-transparent bg-gradient-to-t from-violet-600 via-fuchsia-800 to-white" data-aos="zoom-in-up">
             Collaborate with me to design and develop a next-gen responsive
             website.
           </span>
