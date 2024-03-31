@@ -24,7 +24,7 @@ const Services = () => {
           <Divider />
         </div>
       </div>
-      <div data-aos="zoom-out-up">
+      <div>
         <CardHoverEffectDemo></CardHoverEffectDemo>
       </div>
     </div>

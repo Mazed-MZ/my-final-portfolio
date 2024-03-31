@@ -10,6 +10,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "MAZED MOHAMMED",
   description: "Mazed's personal portfolio website",
+  icons: {
+    icon: ["/favicon.ico?v=4"]
+  }
 };
 
 export default function RootLayout({
