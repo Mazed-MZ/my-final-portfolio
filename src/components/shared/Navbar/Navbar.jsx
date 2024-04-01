@@ -31,7 +31,7 @@ export default function App() {
           className="sm:hidden"
         />
         <NavbarBrand>
-          <p className="font-bold text-inherit">MAZED MOHAMMED</p>
+          <a href="/" className="font-bold text-inherit">MAZED MOHAMMED</a>
         </NavbarBrand>
       </NavbarContent>
 
